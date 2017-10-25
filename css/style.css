@@ -128,19 +128,16 @@ a:focus{
 	margin-right: 0;
 }
 
-.currency__value{
+.currency__item{
 	margin-right: 3px;
 }
 
-.currency__link{
-	margin-right: 3px;
-	font-weight: bold;
+.currency__item:last-child{
+	margin-right: 0;
+}
+
+.currency__item_big{
 	letter-spacing: 1px;
-	color: #000000;
-}
-
-.currency__difference{
-	color: #999999;
 }
 
 .ad{
