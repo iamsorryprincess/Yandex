@@ -22,12 +22,13 @@ a:focus{
 	position: relative;
 	padding-top: 80px;
 	padding-bottom: 220px;
+	box-sizing: border-box;
 }
 
-.page__container{
-	width: 56%;
+.main-container{
+	width: 820px;
 	min-width: 700px;
-	max-width: 1000px;	
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
@@ -45,12 +46,12 @@ a:focus{
 .widget__header{
 	font-size: 16px;
 	color: #0054B9;
-	margin-bottom: 12px;	
+	margin-bottom: 12px;
 }
 
 .widget__title{
 	margin: 0;
-	font-weight: normal;	
+	font-weight: normal;
 }
 
 .widget__list{
@@ -67,7 +68,7 @@ a:focus{
 }
 
 .widget__item{
-	margin-top: 12px;	
+	margin-top: 12px;
 }
 
 .widget__link{
@@ -94,7 +95,7 @@ a:focus{
 .news__tabs{
 	display: inline-block;
 	vertical-align: top;
-	font-size: 15px;	
+	font-size: 15px;
 }
 
 .news__tab{
@@ -113,38 +114,44 @@ a:focus{
 	font-size: 12px;
 }
 
-.currency{
+.header__courses{
 	margin-top: 12px;
 }
 
-.currency__container{	
+.course{
 	display: inline-block;
 	vertical-align: top;
 	font-size: 12px;
 	margin-right: 6px;
 }
 
-.currency__container:last-of-type{ 
+.course__name{
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.course__change{
+	color: #999999;
+}
+
+.course:last-of-type{
 	margin-right: 0;
 }
 
-.currency__item{
+.course__item{
 	margin-right: 3px;
 }
 
-.currency__item:last-child{
+.course__item:last-child{
 	margin-right: 0;
-}
-
-.currency__item_big{
-	letter-spacing: 1px;
 }
 
 .ad{
 	width: 20%;
 }
 
-.search{	
+.search{
 	margin-top: 40px;
 	position: relative;
 }
@@ -159,7 +166,7 @@ a:focus{
 }
 
 .menu__item{
-	display: inline;	
+	display: inline;
 	margin-right: 10px;
 	font-size: 15px;
 	color: #0054b9;
@@ -190,14 +197,14 @@ a:focus{
 	border: 2px solid #FFDB4D;
 	border-right: none;
 	font-size: 16px;
-	width: 100%;			
+	width: 100%;
 }
 
 .search__field:focus{
 	outline: none;
 }
 
-.search__keyboard{	
+.search__keyboard{
 	position: absolute;
 	padding: 0;
 	right: 15px;
@@ -218,7 +225,7 @@ a:focus{
 	outline: none;
 }
 
-.search__button{	
+.search__button{
 	background-color: #FFDB4D;
 	width: 80px;
 	font-size: 16px;
@@ -261,14 +268,14 @@ a:focus{
 
 .search__container{
 	display: inline-block;
-	vertical-align: top;	
+	vertical-align: top;
 }
 
 .search__example{
 	width: 70%;
 }
 
-.search__container_small{	
+.search__container_small{
 	width: 25%;
 	margin-left: 10px;
 	text-align: right;
@@ -283,13 +290,13 @@ a:focus{
 	width: 30px;
 }
 
-.ad__link{	
+.ad__link{
 	vertical-align: top;
 	color: #000000;
 }
 
 .banner{
-	margin-top: 20px;	
+	margin-top: 20px;
 }
 
 .widgets{
@@ -345,7 +352,7 @@ a:focus{
 	cursor: pointer;
 }
 
-.weather__image_cloudy:after{	
+.weather__image_cloudy:after{
 	background-image: url(../images/cloudy.svg);
 }
 
@@ -400,21 +407,23 @@ a:focus{
 }
 
 .footer{
-	width: 100%;
+	min-width: 100%;
 	background-color: #F0F0F0;
 	position: absolute;
 	left: 0;
 	bottom: 0;
 	padding-top: 15px;
 	padding-bottom: 45px;
+	box-sizing: border-box;
 }
 
 .footer__container{
-	width: 56%;
+	width: 830px;
 	margin: 0px auto;
 	position: relative;
 	min-width: 700px;
 	max-width: 1000px;
+	padding-left: 10px;
 }
 
 .footer__container:after{
@@ -424,8 +433,8 @@ a:focus{
 	width: 60px;
 	height: 23px;
 	top: 107px;
-    right: -60px;
-    opacity: 0.4;
+  right: 0px;
+  opacity: 0.4;
 }
 
 .footer__list{
