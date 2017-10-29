@@ -8,20 +8,28 @@ body{
 .page{
 	min-height: 100vh;
 	position: relative;
-	padding-top: 80px;
+	padding-top: 75px;
 	padding-bottom: 220px;
 	box-sizing: border-box;
 }
 
 .main-container{
-	width: 840px;
+	width: 845px;
 	margin: 0 auto;
-	padding-left: 50px;
+	padding-left: 42px;
 }
 
 .header__column{
 	display: inline-block;
 	vertical-align: bottom;
+}
+
+.header__news{
+	width: 70%;
+}
+
+.header__ad{
+	width: 20%;
 }
 
 .button{
@@ -122,10 +130,6 @@ body{
 	height: 90px;
 }
 
-.news{
-	width: 70%;
-}
-
 .news__tabs{
 	display: inline-block;
 	vertical-align: top;
@@ -152,9 +156,12 @@ body{
 	margin-top: 12px;
 }
 
-.course{
+.header__course{
 	display: inline-block;
 	vertical-align: top;
+}
+
+.course{	
 	font-size: 12px;
 }
 
@@ -172,10 +179,6 @@ body{
 
 .course__item:last-child{
 	margin-right: 0;
-}
-
-.ad{
-	width: 20%;
 }
 
 .search{
@@ -211,7 +214,7 @@ body{
 }
 
 .search__field{
-	padding: 7px 43px 7px 12px;
+	padding: 7px 50px 7px 12px;
 	border: 2px solid #FFDB4D;
 	border-right: none;
 	font-size: 16px;
@@ -298,13 +301,13 @@ body{
 	color: #000000;
 }
 
-.search__container_small{
+.search__ad{
 	width: 25%;
 	margin-left: 10px;
 	text-align: right;
 }
 
-.ad__image{
+.search__image{
 	height: 18px;
 	width: 30px;
 	vertical-align: bottom;
@@ -365,14 +368,6 @@ body{
     transition-duration: 0.125s;
 }
 
-/*.tv-show__button:after{	
-	content: "";
-	background-image: url(../images/triangle.svg);
-	position: absolute;
-	right: 0;
-	top: 0;
-}*/
-
 .tv-show__button:hover{
 	transform: scale(1.1);
 }
@@ -390,12 +385,12 @@ body{
 }
 
 .footer__container{
-	width: 850px;
+	width: 845px;
 	margin: 0px auto;
 	position: relative;
 	min-width: 700px;
 	max-width: 1000px;
-	padding-left: 60px;
+	padding-left: 42px;
 }
 
 .footer__logo{
