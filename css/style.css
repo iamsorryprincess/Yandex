@@ -19,6 +19,10 @@ body{
 	padding-left: 42px;
 }
 
+.main-container__content{
+	margin-top: 35px;
+}
+
 .header__column{
 	display: inline-block;
 	vertical-align: bottom;
@@ -191,7 +195,7 @@ body{
 	position: relative;
 }
 
-.menu{
+.search__menu{
 	margin-bottom: 10px;
 }
 
@@ -318,14 +322,6 @@ body{
 	vertical-align: bottom;
 }
 
-.banner{
-	margin-top: 20px;
-}
-
-.widgets{
-	margin-top: 30px;
-}
-
 .widgets__column{
 	display: inline-block;
 	vertical-align: top;
@@ -403,7 +399,7 @@ body{
 	position: absolute;
 	width: 60px;
 	height: 23px;
-	top: 107px;
+	top: 85px;
 	right: 0px;
 	opacity: 0.4;
 }
@@ -424,8 +420,4 @@ body{
 
 .footer__list:last-of-type{
 	margin-right: 0px;
-}
-
-.footer__item{
-	margin-top: 15px;
 }
