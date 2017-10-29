@@ -43,6 +43,14 @@ body{
 	padding: 0;
 }
 
+.list__item:first-of-type{
+	margin-top: 0;
+}
+
+.list__item{
+	margin-top: 12px;
+}
+
 .link{
 	text-decoration: none;
 	color: inherit;
@@ -78,14 +86,6 @@ body{
 
 .widget__list{
 	list-style-type: none;
-}
-
-.widget__item:first-of-type{
-	margin-top: 0;
-}
-
-.widget__item{
-	margin-top: 12px;
 }
 
 .widget__label{
@@ -159,6 +159,11 @@ body{
 .header__course{
 	display: inline-block;
 	vertical-align: top;
+	margin-right: 6px;
+}
+
+.header__course:last-child{
+	margin-right: 0;
 }
 
 .course{	
@@ -378,7 +383,7 @@ body{
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	padding-top: 15px;
+	padding-top: 25px;
 	padding-bottom: 45px;
 	box-sizing: border-box;
 	color: #848484;
